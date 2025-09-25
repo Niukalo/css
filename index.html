@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
     <title>Figma project</title>
     <link
       rel="stylesheet"
@@ -15,9 +16,31 @@
     <link rel="stylesheet" href="./assets/style.css" />
   </head>
   <body>
+    <!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Figma project</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.0/css/all.min.css"
+      integrity="sha512-DxV+EoADOkOygM4IR9yXP8Sb2qwgidEmeqAEmDKIOfPRQZOWbXCzLC6vjbZyy0vPisbH2SyW27+ddLVCN+OMzQ=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="./assets/reset.css" />
+    <link rel="stylesheet" href="./assets/style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
     <header class="navbar">
       <div class="container">
-        <div class="logo"><strong>ana</strong> <span>zeferino</span></div>
+        <div class="logo">
+          <strong>ana</strong><br />
+          <span>zeferino</span>
+        </div>
         <nav class="nav-links">
           <a href="#">Lorem.</a>
           <a href="#">Lorem, ipsum.</a>
@@ -27,145 +50,186 @@
       </div>
     </header>
 
+    <!-- Hero -->
     <section class="hero">
       <div class="container hero-content">
         <div class="text-content">
           <h1>
-            <span class="bold">Ana</span> <span class="bold">Zeferino</span
-            ><br />
+            <span class="bold">Ana</span><br />
+            <span class="bold">Zeferino</span><br />
             <span class="subheading">Lorem ipsum dolor sit.</span>
           </h1>
           <div class="social-icons">
-            <i class="fa-solid fa-envelope"></i>
-            <i class="fa-brands fa-instagram"></i>
-            <i class="fa-brands fa-linkedin-in"></i>
-            <i class="fa-brands fa-behance"></i>
-            <i class="fa-brands fa-whatsapp"></i>
+            <a href="#" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-behance"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
           </div>
         </div>
         <div class="image-content">
-          <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg" alt="Ana Zeferino" />
+          <img
+            src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg"
+            alt="Ana Zeferino"
+            class="img-cover"
+          />
         </div>
       </div>
     </section>
 
-     <section class="services">
+    <!-- Services -->
+    <section class="services">
       <div class="container">
-        <h2>Lorem.</h2>
+        <h2 class="section-title">Services</h2>
         <div class="services-grid">
           <div class="service-card">
             <h3>Lorem, ipsum.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Aliquam, laborum ducimus dolorem beatae quo labore mollitia odio, rem quidem architecto harum dolorum.</p>
-            
+            <p>
+              Lorem, ipsum dolor sit amet consectetur adipisicing elit. Mollitia
+              excepturi, repudiandae, itaque provident consequatur quo tempora
+              soluta natus ea a nesciunt porro architecto error perspiciatis repellendus
+              voluptatem iure ab ipsa fugiat cum sequi eaque.
+            </p>
+
             <div class="dropdown">
-              <button class="dropdown-btn">
+              <button class="btn btn-light">
                 Lorem ipsum dolor sit amet.
                 <i class="fa-solid fa-chevron-down"></i>
               </button>
             </div>
-            
+
             <div class="dropdown">
-              <button class="dropdown-btn">
+              <button class="btn btn-light">
                 Lorem ipsum dolor sit amet.
                 <i class="fa-solid fa-chevron-down"></i>
               </button>
             </div>
-            
-            <button class="cta-btn">Lorem, ipsum dolor.</button>
+
+            <button class="btn btn-primary">Lorem, ipsum dolor.</button>
           </div>
 
           <div class="service-card">
             <h3>Lorem, ipsum.</h3>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Velit iste nihil sunt dolores sint repellendus distinctio sit, omnis eum nemo aperiam numquam.</p>
-            <p><strong>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Praesentium, eligendi!</strong></p>
-            
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Necessitatibus esse exercitationem ipsam, accusantium commodi recusandae,
+              possimus perferendis beatae harum sed laborum laudantium.
+            </p>
+            <p>
+              <strong>
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Error,
+                aliquid.
+              </strong>
+            </p>
+
             <div class="dropdown">
-              <button class="dropdown-btn">
+              <button class="btn btn-light">
                 Lorem ipsum dolor sit.
                 <i class="fa-solid fa-chevron-down"></i>
               </button>
             </div>
-            
+
             <div class="portfolio-btn">
-              <button class="portfolio-link">
+              <button class="btn btn-outline">
                 <i class="fa-brands fa-behance"></i>
                 Lorem, ipsum dolor.
               </button>
             </div>
-            
-            <button class="cta-btn">Lorem, ipsum dolor.</button>
+
+            <button class="btn btn-primary">Lorem, ipsum dolor.</button>
           </div>
 
           <div class="service-card large-card">
-            <h3>Lorem ipsum dolor sit amet consectetur.</h3>
-            <p class="partnership">(Lorem ipsum dolor sit amet.)</p>
-            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur quasi quas cum blanditiis in aperiam deleniti. Odio rem id dicta autem provident?</p>
-            
+            <h3>Lorem, ipsum dolor. | Lorem, ipsum dolor.</h3>
+            <p class="partnership">(lorem5)</p>
+            <p>
+              Lorem ipsum dolor, sit amet consectetur adipisicing elit. Ipsum
+              aspernatur sint natus quos fugiat atque neque non corrupti est amet,
+              placeat et.
+            </p>
+
             <div class="dropdown">
-              <button class="dropdown-btn">
+              <button class="btn btn-light">
                 Lorem ipsum dolor sit amet.
                 <i class="fa-solid fa-chevron-down"></i>
               </button>
             </div>
-            
-            <button class="cta-btn">Lorem, ipsum dolor.</button>
+
+            <button class="btn btn-primary">Lorem, ipsum dolor.</button>
           </div>
         </div>
       </div>
     </section>
 
+    <!-- Recommendations -->
     <section class="recommendations">
       <div class="container">
-        <h2>Lorem, ipsum.</h2>
+        <h2 class="section-titles">Lorem, ipsum.</h2>
         <div class="recommendations-grid">
           <div class="recommendation-card">
             <div class="recommendation-image">
-              <img src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg" alt="Pack de Trellos" />
+              <img
+                src="https://images.pexels.com/photos/3184291/pexels-photo-3184291.jpeg"
+                alt="Pack de Trellos"
+                class="img-cover"
+              />
             </div>
             <div class="recommendation-content">
-              <h3>Lorem, ipsum dolor. <span>Lorem ipsum dolor sit amet.</span></h3>
-              <button class="access-btn">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                Lorem.
+              <p><strong>Lorem ipsum dolor </strong>sit amet consectetur, adipisicing elit.</p>
+              <button class="btn btn-primary">
+               <i class="fa-solid fa-arrow-pointer"></i>
+                ACESSAR
               </button>
             </div>
           </div>
 
           <div class="recommendation-card">
             <div class="recommendation-image">
-              <img src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg" alt="Mentoria" />
+              <img
+                src="https://images.pexels.com/photos/3184338/pexels-photo-3184338.jpeg"
+                alt="Mentoria"
+                class="img-cover"
+              />
             </div>
             <div class="recommendation-content">
-              <h3>Lorem. <span>Lorem ipsum dolor sit amet.</span></h3>
-              <button class="access-btn">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                Lorem.
+              <p><strong>Lorem. </strong> Lorem ipsum dolor sit amet.</p>
+              <button class="btn btn-primary">
+               <i class="fa-solid fa-arrow-pointer"></i>
+                ACESSAR
               </button>
             </div>
           </div>
 
           <div class="recommendation-card">
             <div class="recommendation-image">
-              <img src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg" alt="Elementor" />
+              <img
+                src="https://images.pexels.com/photos/196644/pexels-photo-196644.jpeg"
+                alt="Elementor"
+                class="img-cover"
+              />
             </div>
             <div class="recommendation-content">
-              <h3>Lorem. <span>Lorem ipsum dolor sit amet.</span></h3>
-              <button class="access-btn">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                Lorem.
+              <p> <strong>Lorem.</strong>Lorem ipsum dolor sit amet.</p>
+              <button class="btn btn-primary">
+                <i class="fa-solid fa-arrow-pointer"></i>
+                ACESSAR
               </button>
             </div>
           </div>
 
           <div class="recommendation-card">
             <div class="recommendation-image">
-              <img src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg" alt="Kiwify" />
+              <img
+                src="https://images.pexels.com/photos/265087/pexels-photo-265087.jpeg"
+                alt="Kiwify"
+                class="img-cover"
+              />
             </div>
             <div class="recommendation-content">
-              <h3>Lorem. <span>Lorem ipsum dolor sit.</span></h3>
-              <button class="access-btn">
-                <i class="fa-solid fa-arrow-up-right-from-square"></i>
-                Lorem.
+              <p> <strong>Lorem.</strong>Lorem ipsum dolor sit amet.</p>
+              <button class="btn btn-primary">
+                <i class="fa-solid fa-arrow-pointer"></i>
+                ACESSAR
               </button>
             </div>
           </div>
@@ -173,62 +237,99 @@
       </div>
     </section>
 
-     <section class="testimonials">
+    <!-- Testimonials -->
+    <section class="testimonials">
       <div class="container">
-        <h2>Pessoas e empresas</h2>
-        <p class="testimonials-subtitle">com quem já trabalhei</p>
+        <h2 class="section-title">Lorem, <br>ipsum dolor.</h2>
+        <p class="testimonials-subtitle">Lorem ipsum dolor sit.</p>
         <div class="testimonials-grid">
           <div class="testimonial-item">
             <div class="testimonial-avatar">
-              <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg" alt="Ana Loura" />
+              <img
+                src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg"
+                alt="Ana Loura"
+                class="img-cover"
+              />
             </div>
             <span class="testimonial-name">Ana Loura</span>
           </div>
           <div class="testimonial-item">
             <div class="testimonial-avatar">
-              <img src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg" alt="Florensirim" />
+              <img
+                src="https://images.pexels.com/photos/774909/pexels-photo-774909.jpeg"
+                alt="Florensirim"
+                class="img-cover"
+              />
             </div>
             <span class="testimonial-name">Florensirim</span>
           </div>
           <div class="testimonial-item">
             <div class="testimonial-avatar">
-              <img src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg" alt="Julia Mendonça" />
+              <img
+                src="https://images.pexels.com/photos/415829/pexels-photo-415829.jpeg"
+                alt="Julia Mendonça"
+                class="img-cover"
+              />
             </div>
-            <span class="testimonial-name">Julia Mendonça</span>
+            <span class="testimonial-name">Julia Mendonca</span>
           </div>
           <div class="testimonial-item">
             <div class="testimonial-avatar">
-              <img src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg" alt="Carolina Inthurn" />
+              <img
+                src="https://images.pexels.com/photos/1222271/pexels-photo-1222271.jpeg"
+                alt="Carolina Inthurn"
+                class="img-cover"
+              />
             </div>
             <span class="testimonial-name">Carolina Inthurn</span>
           </div>
           <div class="testimonial-item">
             <div class="testimonial-avatar">
-              <img src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg" alt="Save Me Teacher" />
+              <img
+                src="https://images.pexels.com/photos/1181686/pexels-photo-1181686.jpeg"
+                alt="Save Me Teacher"
+                class="img-cover"
+              />
             </div>
             <span class="testimonial-name">Save Me Teacher</span>
           </div>
           <div class="testimonial-item">
             <div class="testimonial-avatar">
-              <img src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg" alt="Carol Lopes" />
+              <img
+                src="https://images.pexels.com/photos/1043471/pexels-photo-1043471.jpeg"
+                alt="Carol Lopes"
+                class="img-cover"
+              />
             </div>
             <span class="testimonial-name">Carol Lopes</span>
           </div>
           <div class="testimonial-item">
             <div class="testimonial-avatar">
-              <img src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg" alt="Digi Girls" />
+              <img
+                src="https://images.pexels.com/photos/1681010/pexels-photo-1681010.jpeg"
+                alt="Digi Girls"
+                class="img-cover"
+              />
             </div>
             <span class="testimonial-name">Digi Girls</span>
           </div>
           <div class="testimonial-item">
             <div class="testimonial-avatar">
-              <img src="https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg" alt="Ellenn Naomie" />
+              <img
+                src="https://images.pexels.com/photos/1559486/pexels-photo-1559486.jpeg"
+                alt="Ellenn Naomie"
+                class="img-cover"
+              />
             </div>
             <span class="testimonial-name">Ellenn Naomie</span>
           </div>
           <div class="testimonial-item">
             <div class="testimonial-avatar">
-              <img src="https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg" alt="Jaqueline Gatti" />
+              <img
+                src="https://images.pexels.com/photos/1130626/pexels-photo-1130626.jpeg"
+                alt="Jaqueline Gatti"
+                class="img-cover"
+              />
             </div>
             <span class="testimonial-name">Jaqueline Gatti</span>
           </div>
@@ -236,69 +337,89 @@
       </div>
     </section>
 
-    <section class="about">
-      <div class="container">
-        <div class="about-content">
-          <div class="about-text">
-            <h2>ana zeferino</h2>
-            <p>Formada em Comunicação Social com ênfase em Jornalismo pela Universidade Federal de Viçosa. Atualmente sou gestora de projetos digitais com experiência profissional em lançamentos digitais e e-commerce. Hoje também faço parte da equipe de gestão Ana Loura Lobo.</p>
-            <div class="quote-mark">"</div>
-          </div>
-          <div class="about-image">
-            <img src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg" alt="Ana Zeferino" />
-          </div>
-        </div>
+    <!-- About -->
+<section class="about">
+  <div class="container">
+    <div class="about-content">
+      <div class="about-text">
+        <h2 class="section-title">
+          ana <br />
+          zeferino
+        </h2>
+        <p>
+       Lorem ipsum dolor sit amet, consectetur adipisicing elit. Consequuntur esse quibusdam error consequatur quisquam laborum pariatur voluptates eius illo, porro praesentium dolores voluptas voluptatibus saepe dolorum optio placeat recusandae ab nobis mollitia incidunt. Placeat deleniti quos assumenda aspernatur, ducimus minus.
+        </p>
       </div>
-    </section>
-
-    <section class="final-testimonial">
-      <div class="container">
-        <div class="testimonial-content">
-          <div class="quote-marks-top">"</div>
-          <div class="testimonial-text">
-            <p><strong>Ana, tu és incrível e consequentemente o teu trabalho!</strong></p>
-            <p>Eu estava completamente perdida com os processos e a estruturação do trabalho das minhas duas últimas turmas oferecidas e tu me escutaste, entendeste a minha dificuldade e simplesmente entregou tudo o que eu precisava para resolver este que parecia ser um caos.</p>
-            <p>Saber gerir um projeto seja de clientes ou de conteúdo, de lançamento é fundamental pro eu realizar um trabalho que gerdsse resultados não só na minha vida como dos meus clientes.</p>
-            <p>Se eu não tivesse a orientação que tu me deste aliado ao meu conhecimento, eu não conseguiria me organizar para ter mais tempo de qualidade.</p>
-            <p>Muito obrigada por empreender e pelo teu trabalho!</p>
-            <p><em>Um cheiro, Isabela Figueiró.</em></p>
-          </div>
-          <div class="testimonial-author">
-            <span>Isabela Figueiró</span>
-          </div>
-        </div>
+      <div class="about-image">
+        <img
+          src="https://images.pexels.com/photos/1239291/pexels-photo-1239291.jpeg"
+          alt="Ana Zeferino"
+          class="img-cover"
+        />
       </div>
-    </section>
+    </div>
+  </div>
+</section>
 
+
+    <!-- Final testimonial -->
+<section class="final-testimonial">
+  <div class="container">
+    <div class="testimonial-content">
+      
+      <button class="arrow left">
+        <i class="fa-solid fa-chevron-left"></i>
+      </button>
+
+      <div class="testimonial-text">
+        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Nostrum!</p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores quis at nam eveniet nihil sit ex excepturi quod pariatur soluta culpa odit tenetur accusantium aspernatur, consequuntur doloribus incidunt quibusdam dignissimos?
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut maxime iste error! Incidunt exercitationem rerum accusamus perferendis atque aperiam saepe iure voluptates, facilis fugiat. Numquam sed deleniti sint incidunt assumenda.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure illo voluptatem vitae reiciendis.
+        </p>
+        <p>
+          Lorem ipsum dolor sit amet consectetur adipisicing elit.
+        </p>
+        <p>Lorem ipsum dolor sit.</p>
+      </div>
+
+      
+      <button class="arrow right">
+        <i class="fa-solid fa-chevron-right"></i>
+      </button>
+    </div>
+
+    <div class="testimonial-author">
+      <span>Isabela Figueiro</span>
+    </div>
+  </div>
+</section>
+
+
+    <!-- Footer -->
     <footer class="footer">
       <div class="container">
         <div class="footer-content">
           <div class="footer-logo">
-            <h3>ana<br>zeferino</h3>
+            <h3>ana</h3>zeferino</h3>
           </div>
           <div class="footer-social">
-            <a href="#" class="social-icon email">
-              <i class="fa-solid fa-envelope"></i>
-            </a>
-            <a href="#" class="social-icon instagram">
-              <i class="fa-brands fa-instagram"></i>
-            </a>
-            <a href="#" class="social-icon behance">
-              <i class="fa-brands fa-behance"></i>
-            </a>
-            <a href="#" class="social-icon linkedin">
-              <i class="fa-brands fa-linkedin-in"></i>
-            </a>
-            <a href="#" class="social-icon whatsapp">
-              <i class="fa-brands fa-whatsapp"></i>
-            </a>
+            <a href="#" class="social-icon"><i class="fa-solid fa-envelope"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-instagram"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-behance"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-linkedin-in"></i></a>
+            <a href="#" class="social-icon"><i class="fa-brands fa-whatsapp"></i></a>
           </div>
         </div>
         <div class="footer-copyright">
-          <p>© 2023 Ana Zeferino</p>
+          <p>© 2022 Ana Zeferino</p>
         </div>
       </div>
     </footer>
-
   </body>
 </html>
